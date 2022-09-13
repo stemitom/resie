@@ -11,11 +11,7 @@ from django.urls import reverse
 from resie.users.forms import UserAdminChangeForm
 from resie.users.models import User
 from resie.users.tests.factories import UserFactory
-from resie.users.views import (
-    UserRedirectView,
-    UserUpdateView,
-    user_detail_view,
-)
+from resie.users.views import UserRedirectView, UserUpdateView, user_detail_view
 
 pytestmark = pytest.mark.django_db
 
