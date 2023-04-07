@@ -331,3 +331,6 @@ resie/media/
 .env
 .envs/*
 !.envs/.local/
+
+### IDE Configuration
+.idea/
