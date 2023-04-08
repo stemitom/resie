@@ -36,6 +36,8 @@ services:
       - resie_local_postgres_data_backups:/backups:z
     env_file:
       - ./.envs/.local/.postgres
+    ports:
+      - "5439:5432"
 
   docs:
     image: resie_local_docs
